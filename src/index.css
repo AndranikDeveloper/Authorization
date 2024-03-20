@@ -1,0 +1,36 @@
+:root {
+  --title-color: #1a1919;
+  --social-color: #060e1e;
+  --text-color: #060e1e;
+  --button-background-color: #316fea;
+  --link-color: #316fea;
+  --blue-hover-color: #1f4cbb;
+  --white-hover-color: #e7eef5;
+  --divider-line-color: #e3e6e9;
+  --divider-text-color: #bec5cc;
+  --border-color: #d3d8dc;
+  --error-color: #d32f2f;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('./fonts/BasisGrotesquePro-Light.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('./fonts/BasisGrotesquePro-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('./fonts/BasisGrotesquePro-Bold.ttf');
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Basis Grotesque Pro';
+}

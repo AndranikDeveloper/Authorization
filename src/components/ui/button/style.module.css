@@ -1,0 +1,33 @@
+.button {
+  width: 100%;
+  border: none;
+  padding: 13px 82px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.resolveButton {
+  background-color: var(--button-background-color);
+  color: #fff;
+  margin-top: 30px;
+  transition: all 0.4s ease;
+}
+
+.resolveButton:hover {
+  background-color: var(--blue-hover-color);
+}
+
+.rejectButton {
+  background-color: #fff;
+  color: var(--text-color);
+  margin-top: 20px;
+  border: 1.2px solid var(--border-color);
+  transition: all 0.4s ease;
+}
+.rejectButton:hover {
+  background-color: var(--white-hover-color);
+}

@@ -1,0 +1,14 @@
+.dividerBlock {
+  display: flex;
+  gap: 8px;
+  margin: 30px 0 30px 0;
+  align-items: center;
+  width: 100%;
+}
+.divider {
+  border-top: 1px solid var(--divider-line-color);
+  width: 100%;
+}
+.dividerText {
+  color: var(--divider-text-color);
+}

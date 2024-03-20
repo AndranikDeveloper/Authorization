@@ -1,0 +1,37 @@
+.inputBlock {
+  width: 100%;
+}
+
+.inputWrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+.input:nth-child(2) {
+  margin-top: 25px;
+}
+.errorInput {
+  border-color: var(--error-color) !important;
+}
+.errorMessage {
+  color: var(--error-color);
+  font-size: 15px;
+  float: left;
+}
+.label {
+  text-align: start;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}

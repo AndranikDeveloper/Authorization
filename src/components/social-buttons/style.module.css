@@ -1,0 +1,36 @@
+.buttonsWrapper {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.socialButton {
+  display: flex;
+  column-gap: 10px;
+  padding: 15px 58px;
+  border: 1.2px solid var(--border-color);
+  border-radius: 6px;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.socialButton:hover {
+  background-color: var(--white-hover-color);
+}
+@media (max-width: 799px) {
+  .socialButton {
+    width: 100%;
+  }
+}
+.socialName {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

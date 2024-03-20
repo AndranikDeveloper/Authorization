@@ -1,0 +1,9 @@
+.forgotPasswordText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--link-color);
+  margin-left: auto;
+  cursor: pointer;
+  user-select: none;
+}
