@@ -11,3 +11,9 @@
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 799px) {
+  .auth {
+    padding: 20px;
+  }
+}
